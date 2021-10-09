@@ -2,6 +2,8 @@
 
     --main-color: pink;
     --text-color: black;
+    --secondary-color: darkorchid;
+
 
 }
 
@@ -27,7 +29,6 @@ display: flex;
 background-color: var(--main-color);
 text-align: left;
 justify-content: space-between;
-flex-wrap: wrap;
 }
 
 
@@ -50,8 +51,28 @@ header nav ul li a {
 
 padding:10px 50px 20px ;
 font-size: large;
-font-weight: normal;
-text-decoration-color: darkorchid;
+font-weight: bold;
+text-decoration-line: underline;
+text-decoration-color: var(--secondary-color);
 color: var(--text-color);
+
+}
+
+.Intro h2 {
+
+
+
+}
+.Intro p {
+
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    border: 5px solid var(--secondary-color);
+
+
+
+
 
 }
