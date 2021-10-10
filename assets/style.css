@@ -3,6 +3,7 @@
     --main-color: pink;
     --text-color: black;
     --secondary-color: darkorchid;
+    --border-color: lightgrey;
 
 
 }
@@ -11,50 +12,44 @@
 body {
 
 font-family: Arial, Helvetica, sans-serif;
-color: var(--text-color);
+background-color: var(--border-color);
 
 }
 
 /* header styles */
 
-header h1 a{
+header h1{
     text-shadow: 0 0 10px var(--secondary-color);
+
+}
+
+header h1 a{
+    
     text-decoration-line: none;
     color: var(--text-color);
     text-decoration-color: var(--secondary-color);
-    font-size: medium;
-    padding:10px 50px 20px ;
-    margin: 0;
-    display: flex;
-    top: 4%;
-    flex-shrink: 100%;
+    
    
 }
 
 
 header {
-
+    padding: 20px 35px;
     background-color: var(--main-color);
-    background-size: cover;
-    width: 100%;
-    padding: 10px 25px;
     display: flex;
     justify-content: space-between;
-    position: sticky;
     flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-size: cover;
+    background-position: 80%;
+    z-index: 9999;
+  
 }
 
 header nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 7px 0;
-    overflow: hidden;
-    position: fixed;
-   top: 4%;
-    width: 100%; 
-    justify-content: center;
-    text-shadow: 0 0 10px var(--secondary-color);
-    flex-wrap: wrap;
+    margin: 7px 0; 
 }
 
 header nav ul {
@@ -68,14 +63,12 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding:10px 50px 20px ;
-font-size: 100%;
-font-weight: bold;
-text-decoration-line: none;
-text-decoration-color: var(--secondary-color);
-color: var(--text-color);
-text-align: center;
-flex-wrap: wrap;
+
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-decoration: none;
+    text-shadow: 0 0 10px var(--secondary-color);
 }
 
 
@@ -86,3 +79,53 @@ header nav ul li a:hover {
 
 }
 
+/* About me styles*/
+
+
+#About-Me li {
+
+font-size: xx-large;
+margin-left: 5%;
+}
+
+#About-Me p {
+
+    text-align: center;
+    font-weight: bold ;
+    margin-left: 20%;
+    letter-spacing: 2px;
+    line-height: 35px;
+}
+
+
+
+.About p{
+
+justify-content:center ;
+font-size: large;
+text-shadow: 0 0 10px var(--secondary-color);
+margin-top: 5.5%;
+
+
+}
+
+.About ul li {
+
+list-style: none;
+vertical-align: middle;
+
+
+
+}
+
+.About img {
+
+    border: 5px solid #555;
+
+}
+.float {
+
+float:right;
+margin-right: 25px;
+margin-left:10% ;
+}
