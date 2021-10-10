@@ -7,72 +7,82 @@
 
 }
 
-header h1 {
 
-font-size: x-large;
-font-family: cursive;
-position: relative;
+body {
 
-}
-
-header h1 a {
-
-    text-decoration: none;
-    color: var(--text-color);
-    text-shadow: 2px 2px darkorchid; 
-
-}
-
-header  {
-padding: 20px 30px ;
-display: flex;
-background-color: var(--main-color);
-text-align: left;
-justify-content: space-between;
-}
-
-
-header nav {
-    margin: 7px 0;
-
-}
-
-header nav ul {
-
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-align-items: center;
-list-style: none;
-
-}
-
-header nav ul li a {
-
-padding:10px 50px 20px ;
-font-size: large;
-font-weight: bold;
-text-decoration-line: underline;
-text-decoration-color: var(--secondary-color);
+font-family: Arial, Helvetica, sans-serif;
 color: var(--text-color);
 
 }
 
-.Intro h2 {
+/* header styles */
+
+header h1 a{
+    text-shadow: 0 0 10px var(--secondary-color);
+    text-decoration-line: none;
+    color: var(--text-color);
+    text-decoration-color: var(--secondary-color);
+    font-size: medium;
+    padding:10px 50px 20px ;
+    margin: 0;
+    display: flex;
+    top: 4%;
+    flex-shrink: 100%;
+   
+}
 
 
+header {
+
+    background-color: var(--main-color);
+    background-size: cover;
+    width: 100%;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    flex-wrap: wrap;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 0;
+    overflow: hidden;
+    position: fixed;
+   top: 4%;
+    width: 100%; 
+    justify-content: center;
+    text-shadow: 0 0 10px var(--secondary-color);
+    flex-wrap: wrap;
+}
+
+header nav ul {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 
 }
-.Intro p {
 
-    padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: small;
-    font-weight: bold;
-    border: 5px solid var(--secondary-color);
+header nav ul li a {
+    padding:10px 50px 20px ;
+font-size: 100%;
+font-weight: bold;
+text-decoration-line: none;
+text-decoration-color: var(--secondary-color);
+color: var(--text-color);
+text-align: center;
+flex-wrap: wrap;
+}
 
 
+header nav ul li a:hover {
 
-
+    background: white;
+    border-radius: 5px;
 
 }
+
