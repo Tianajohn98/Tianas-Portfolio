@@ -118,11 +118,11 @@ margin-top: 5.5%;
 
 }
 
-#Projects {
+
 
 
    
-}
+
 #Projects h3 {
 
 font-size: xx-large;
@@ -135,19 +135,56 @@ margin-top: 18%;
 
 #Projects ul  {
 
-display: flex;
-list-style: none;
-justify-content: flex-start;
-flex-direction: row;
-flex-wrap: wrap;
-margin-left: 200px;
 
-
-
+ 
+   
 
 }
+
+#Projects ul li {
+
+
+
+
+list-style: none;
+
+}
+
+ .two {
+
+float: left;
+
+
+
+ }
+    
+
 .three {
+    float: right;
+    margin-right: 10%;
+    
+}
+
+.four {
+
+margin-top: 1%;
+float: left;
+
+}
+
+.five {
 
     float: right;
+  margin-right: 10%;
+  margin-top: 1%;
+  margin-bottom: 40%;
 }
 
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: var(--main-color);
+}
