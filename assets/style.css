@@ -82,22 +82,32 @@ header nav ul li a:hover {
 /* About me styles*/
 
 
-#About-Me li {
 
-font-size: xx-large;
-margin-left: 5%;
-}
-
-#About-Me p {
+.About p {
 
     text-align: center;
     font-weight: bold ;
     margin-left: 20%;
     letter-spacing: 2px;
     line-height: 35px;
+    margin-top: 100%;
+   
 }
 
+.About h2 {
+ float: left;
+    font-size: xx-large;
+    
+}
 
+.float {
+
+    float:right;
+    margin-right: 25px;
+    margin-left:10% ;
+    margin-bottom:10% ;
+    border: 5px solid #555;
+    }
 
 .About p{
 
@@ -106,26 +116,38 @@ font-size: large;
 text-shadow: 0 0 10px var(--secondary-color);
 margin-top: 5.5%;
 
+}
+
+#Projects {
+
+
+   
+}
+#Projects h3 {
+
+font-size: xx-large;
+margin-top: 18%;
+
 
 }
 
-.About ul li {
 
+
+#Projects ul  {
+
+display: flex;
 list-style: none;
-vertical-align: middle;
+justify-content: flex-start;
+flex-direction: row;
+flex-wrap: wrap;
+margin-left: 200px;
 
 
 
-}
-
-.About img {
-
-    border: 5px solid #555;
 
 }
-.float {
+.three {
 
-float:right;
-margin-right: 25px;
-margin-left:10% ;
+    float: right;
 }
+
